@@ -18,8 +18,8 @@ void setup() {
 
   cam = new Capture(this, 640, 480, FPS);
   cam.start();
-  videoExport = new VideoExport(this, "camera.mp4", cam);
-  videoExport.startMovie();
+ // videoExport = new VideoExport(this, "camera.mp4", cam);
+  //videoExport.startMovie();
 }
 void draw() {
   if (cam.available()) {
