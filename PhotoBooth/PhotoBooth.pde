@@ -35,12 +35,12 @@ image(cam, 0, 0);
 }
 
 void mousePressed(){
- saveFrame("\\images\\testImage-######.png"); 
+ saveFrame("images/pb-######.png"); 
 }
 
 void keyPressed() {
-  if (key == 'q') {
-    videoExport.endMovie();
-    exit();
-  }
+  //if (key == 'q') {
+  //  videoExport.endMovie();
+  //  exit();
+ // }
 }
